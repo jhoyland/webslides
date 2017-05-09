@@ -1,0 +1,33 @@
+body {
+	background-color: #101010;
+}
+
+.slide{
+	background-color: #F0F0F0;
+	max-width:900px;
+	height:600px;
+}
+
+.slide-header{
+	background-color: #F0C5C5;
+	height:100px;
+	padding:20px;
+}
+
+.slide-header > h1 {
+	text-align:right;
+}
+
+.slide-footer{
+	background-color: #F0C5C5;
+	height:50px;
+	padding:0 10px 0 10px;
+}
+
+.column{
+	padding:40px;
+}
+
+.center-content{
+	padding:0px;
+}
