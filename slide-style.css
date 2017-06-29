@@ -1,17 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
 	background-color: #101010;
+	font-family: 'Open Sans',serif;
 }
 
 .slide{
-	background-color: #F0F0F0;
+	background-color: white;
 	max-width:900px;
 	height:600px;
 }
 
 .slide-header{
-	background-color: #F0C5C5;
+	background-color: #af2b43;
+	color: white;
 	height:100px;
 	padding:20px;
+	text-decoration: none;
 }
 
 .slide-header > h1 {
@@ -19,7 +24,8 @@ body {
 }
 
 .slide-footer{
-	background-color: #F0C5C5;
+	background-color: #af2b43;
+	color: white;
 	height:50px;
 	padding:0 10px 0 10px;
 }
@@ -32,3 +38,11 @@ body {
 	background-color: #D0D0D0;
 	padding:0px;
 }
+
+.block-title{
+	background-color: #B0B0B0;
+	width:100%;
+	text-align: center;
+}
+
+

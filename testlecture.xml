@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<slides>
+	<slide id="NewtonsLaws">
+		<header>
+		<title>Newton's Laws of Motion</title>
+		</header>
+		<body>
+			<row>
+				<col>
+					<content>
+						<text>
+							<p>Newton's second law states that a the ratio of the force on a body to it's acceleration is the mass of that body</p>
+							<p>When $ a \ne 0 $, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+		$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
+						</text>
+					</content>
+				</col>
+				<col width='3'>
+					<content>
+						<img src="https://www.draw.io/#G0B0K_YsrDyOyoZ3FQYXJCS2QxSkE" embed="canvas"/>
+					</content>
+				</col>
+			</row>
+		</body>
+		<footer>
+		</footer>
+	</slide>	
+	<slide id="ACommonLayout">
+		<header>
+			<title>Using a common layout</title>
+		</header>
+		<body layout="col13">
+			<content>
+				<text>
+					<p>From youtube</p>
+				</text>
+			</content>
+			<content>
+				<media>
+					<!--<iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/_wMvItIDMPU" frameborder="0"></iframe>-->
+					<!--<video provider="youtube" src="_wMvItIDMPU" />-->
+					<!--<app provider="phet" src="hookes-law/latest/hookes-law_en.html" />-->
+					<iframe frameborder="0" src="https://www.draw.io/?lightbox=1&amp;nav=1#G0B0K_YsrDyOyoZ3FQYXJCS2QxSkE"></iframe>
+					<!--<iframe src="https://phet.colorado.edu/sims/vector-addition/vector-addition_en.html" width="800" height="600" scrolling="no"></iframe>-->
+				</media>
+			</content>
+		</body>
+		<footer>
+		</footer>
+	</slide>
+	<slide id="AnotherCommonLayout">
+		<header>
+			<title>Using a common layout</title>
+		</header>
+		<body layout="2figs-with-captions">
+			<content>
+				<img src="20170423_165822.jpg" embed="canvas"/>
+			</content>
+			<content>
+				<text><p>Caption for figure 1</p></text>
+			</content>
+			<content>
+				<img src="cadaverinecell.png" embed="canvas"/>
+			</content>
+			<content>
+				<text><p>Caption for figure 2</p></text>
+			</content>
+		</body>
+		<footer/>
+	</slide>
+	<slide id="ContentLayout">
+		<header>
+			<title>Using a common layout</title>
+		</header>
+		<body>
+			<row>
+				<col width='2'>
+					<content layout='img-with-caption'>
+						<img src="path2985.png" embed="canvas"/>
+						<text><p>The caption for path2985</p></text>
+					</content>
+				</col>
+				<col width='3'>
+					<content layout='img-with-caption'>
+						<img src="cadaverinecell.png" embed="canvas"/>
+						<text><p>Another caption here</p></text>
+					</content>
+				</col>
+			</row>
+		</body>
+		<footer/>
+	</slide>
+	<slide id="MoreNewtonsLaws">
+		<header>
+			<title>Newton's Laws of Motion (more)</title>
+		</header>
+		<body>
+			<row>
+				<col>
+					<row height='5'>
+						<content>
+							<img src="cadaverinecell.png" embed="canvas"/>
+						</content>
+					</row>
+					<row height='1'>
+						<content>
+							<p>Cell for <i>cadaverine</i> photonic sensor</p>
+						</content>
+					</row>
+				</col>
+				<col>
+					<row height='5'>
+						<content>
+							<img src="20170423_165822.jpg" embed="canvas"/>
+						</content>
+					</row>
+					<row height='1'>
+						<content>
+							<p>3D printed router guide bushing</p>
+						</content>
+					</row>
+				</col>
+			</row>
+		</body>
+		<footer>
+		</footer>
+	</slide>
+</slides>
+

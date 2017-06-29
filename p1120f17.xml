@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slides>
+	<slide id="title">
+		<body layout="title-slide"/>
+			<title></title>
+			<subtitle></subtitle>
+
+		<footer/>
+	</slide>
+	<slide id="mathematicsInPhysics">
+		<header>
+			<title>The relationship between mathematics and physics</title>
+		</header>
+		<body layout="2cols">
+			<content>
+				<text>
+				<p>Mathematics is the <i>language</i> of physics</p>
+				<p>To study physics you need a certain level of fluency in it's language</p>
+				<p>Here are some of the commoon mathematical operations you need to be able to understand and perform in order to do Physics.</p>
+				<p>I will assume you know how to do these!</p>
+			</text>
+			</content>
+			<content>
+				<text>
+				<h3>Algebra</h3>
+				<ul>
+					<li>Solve an equation with one unknown</li>
+					<li>Solve a group of related equations with several unknowns</li>
+					<li>Find the roots of a quadratic equation</li>
+				</ul>
+				<h3>Geometry and trigonometry</h3>
+				<ul>
+					<li>Find the perimeter, area and volume of common shapes</li>
+					<li>Determine unknown angles from amongst a collection of straight lines</li>
+				</ul>
+				</text>
+			</content>
+		</body>
+		<footer/>
+	</slide>
+	<slide id="vectorMultiplication">
+		<header>
+			<title>Multiplying vectors</title>
+		</header>
+		<body layout="2cols">
+			<content>
+				<text>
+					<p>Multiplying a vector by a scalar is very simple. Just multiply each component by the scalar value.</p>
+					<p>$$\vec{a}=k\vec{b}$$</p>
+				</text>
+			</content>
+		</body>
+		<footer/>
+	</slide>
+	<slide id="vectorArithatic">
+		<header>
+			<title>Adding vectors numerically</title>
+		</header>
+		<body layout="2cols">
+			<content>
+				<text>
+					<p>To add two vectors, it is easiest to work in the "component" form of the vector.</p>
+					<p>Just take the x,y and z components of one vector and add them to the x,y and z components of the other vectors so:</p>
+					<p>$$\vec{a}=\vec{b}+\vec{c}\begin{cases}
+						a_x = b_x + c_x\\
+						a_y = b_y + c_y\\
+						a_z = b_z + c_z
+						\end{cases}$$</p>
+				</text>
+			</content>
+			<content>
+				<text>
+					<p>Just like in "normal" arithmetic, subtracting is just like adding but with a negative numbers. For example $5-3 \equiv 5+(-3)$.</p>
+					<p>And so for vectors</p>
+					
+					<p>$$\vec{a}=\vec{b}-\vec{c}=\vec{b}+(-\vec{c})\begin{cases}
+						a_x = b_x-c_x\\
+						a_y = b_y-c_y\\
+						a_z = b_z-c_z
+						\end{cases}$$</p>
+				</text>
+			</content>
+		</body>
+		<footer/>
+	</slide>
+	<slide id="vectorArithatic2">
+		<header>
+			<title>Subtracting vectors</title>
+		</header>
+		<body layout="2cols">
+			<content>
+				<text>
+					<p>To add two vectors, it is easiest to work in the "component" form of the vector.</p>
+					<p>Just take the x,y and z components of one vector and add them to the x,y and z components of the other vectors so:</p>
+					<p>$$\vec{a}=\vec{b}+\vec{c}\begin{cases}
+						a_x = b_x + c_x\\
+						a_y = b_y + c_y\\
+						a_z = b_z + c_z
+						\end{cases}$$</p>
+				</text>
+			</content>
+		</body>
+		<footer/>
+	</slide>
+</slides>
